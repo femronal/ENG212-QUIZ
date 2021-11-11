@@ -42,7 +42,7 @@ const QMAKE_SEND_WEBAPP = 4;
 const QMAKE_SEND_NODEJS = 5;
 const QMAKE_SEND_NODEJS_LOCAL = 6;  
 
-const QUIZ_KEYWORD = "UmrrnL3iQH3#e8QP";
+const QUIZ_KEYWORD = "0CuiSs@JXx0N9mib";
 
 const USER_LOGIN_ANONYMOUS = "anonymous";
 const USER_EMAIL_ANONYMOUS = "anonymous@anonymous.nowhere";
@@ -50,18 +50,18 @@ const USER_EMAIL_ANONYMOUS = "anonymous@anonymous.nowhere";
 const options =
 {
 	name:"ENG122 QUIZ",
-	title: "ENG122 - READING, COMPREHENSION & STUDY SKILLS ( Few Weeks to Exam)",
+	title: "ENG212 - ADVANCED WRTING QUIZ",
 	id: 0,
-	numOfQuestions: 12,
-	notValuatedQuestionsArray: [0,1,1,1,1,1,1,1,1,0,0,0],
+	numOfQuestions: 15,
+	notValuatedQuestionsArray: [0,1,0,1,1,1,1,1,1,1,1,1,1,1,1],
 	maxtime: 1800,
 	maxmark: 10,
 	minmark: 0,
 	roundmark: 1,
-	questSlide: true,
+	questSlide: false,
 	lockRightAns: false,
 	computeMarkFnType: QMAKE_COMPUTE_MARK_BASIC,
-	randQuest: false,
+	randQuest: true,
 	allowChangeChoiceAlways: false,
 	verifyQuestBeforeNext: true,
 	verifyAtLeastOneChoice: false,
@@ -93,13 +93,13 @@ const options =
 	maxNumRetake: 100,
 	upperMarkForRetake: 6,
 	warnNeedRetake: false,
-	isQuizAnonymous: true,
+	isQuizAnonymous: false,
 	needLogin: false,
 	reportNumOfColumns: 1,
 	hideTitleBar: false,
 	hideStatusBar: false,
-	includeProfile: false,
-	author: "",
+	includeProfile: true,
+	author: "Hunter",
 	argument: "",
 	company: "",
 	quiz_date: "2021",
